@@ -8,7 +8,6 @@ table
     font-size: 0.8em
     background-color: $color-sistema-f
     padding: $base-spacing /2 $base-spacing
-    font-weight: $base-bold-font-weight
   
 .tabla-a
   overflow-x: auto
@@ -26,7 +25,8 @@ table
     font-size: $h4-font-size
 
   tbody
-
+    td
+      border-color: $table-header-bg-color
   &.color-primario
     thead
       border-color: $color-primario
@@ -39,6 +39,9 @@ table
   &.color-acento-botones
     thead
       border-color: $color-acento-botones
+  &.color-adicional
+    thead
+      border-color: $color-adicional
 
   
 

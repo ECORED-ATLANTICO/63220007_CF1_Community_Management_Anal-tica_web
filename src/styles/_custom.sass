@@ -87,7 +87,7 @@
 .banner-interno__fondo 
   background-image: url('../assets/curso/portada/banner-interno.png') !important
 
-figcaption
+figcaption, caption
   font-weight: normal
 
 .bg-color-terciario-t5
@@ -99,6 +99,15 @@ figcaption
 .fullwidth-bg
   position: relative
   z-index: 0
+
+  &--1::after
+    top: 0px
+    left: -60px
+    position: absolute
+    content: url('../assets/curso/temas/tema3/bg-1.png')
+
+    @media (max-width: 450px)
+      display: none
 
   &--2::after
     top: 100px
@@ -123,6 +132,9 @@ figcaption
 .z-2
   z-index: 2
   position: relative
+
+.accesibilidad
+  z-index: 10
 
 .factores-slider
   background-color: #F6F6F6
@@ -154,6 +166,16 @@ figcaption
 .font-small
   font-size: 14px
 
+.banner-text
+  background-color: $color-terciario-t5
+  border-radius: 10px
+  padding: 20px 30px
+  margin-top: -10px
+
+@media (min-width: 992px)
+  .banner-text
+    margin-top: -40px
+
 .drop-shadow
   filter: drop-shadow(0px 3px 5px #00000005)
 
@@ -183,3 +205,20 @@ figcaption
         width: 10px
         height: 10px
         margin: 0 3px
+
+.checklist
+  padding-left: 20px
+  width: fit-content
+
+  li
+    position: relative
+    padding: 0 20px
+    padding-left: 0
+    // border-bottom: 1px dotted #AFAFAF
+
+    &:last-child
+      border-bottom: none
+    &::before
+      content: url('../assets/curso/temas/check-icon.svg')
+      position: absolute
+      left: -20px
