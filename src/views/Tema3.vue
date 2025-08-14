@@ -89,7 +89,7 @@
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-12.col-lg-6
-        .titulo-sexto.color-acento-contenido.mb-4
+        .titulo-sexto.color-adicional.mb-4
           h5 Figura 3.
           span Acciones de adaptabilidad
         img.d-md-none.mb-3(data-aos="fade-up")(src="@/assets/curso/temas/tema3/10-mobile.png", alt="Escuchar a las audiencias. Analizar comentarios y métricas para mejorar. Diversificar formatos. Explorar nuevos tipos de contenido como reels, podcasts o carruseles. Actualización permanente. Seguir tendencias y cambios en el comportamiento digital. Optimizar plataformas. Cada red social tiene su propio estilo y formato ideal.")
@@ -113,7 +113,7 @@
 
     .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
       .col-12.col-lg-6
-        .titulo-sexto.color-acento-contenido.mb-4
+        .titulo-sexto.color-adicional.mb-4
           h5 Figura 4.
           span Claves para la viralidad. 
         img.mb-2(data-aos="fade-up")(src="@/assets/curso/temas/tema3/12.png", alt="Escuchar a las audiencias. Analizar comentarios y métricas para mejorar. Diversificar formatos. Explorar nuevos tipos de contenido como reels, podcasts o carruseles. Actualización permanente. Seguir tendencias y cambios en el comportamiento digital. Optimizar plataformas. Cada red social tiene su propio estilo y formato ideal.")

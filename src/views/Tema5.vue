@@ -27,7 +27,7 @@
           .row(numero="4" titulo="Mayor alcance orgánico")
             p.text-small Las plataformas priorizan y visibilizan el contenido con alto nivel de interacción.
 
-          .row(numero="5" titulo="Fidelización de audiencia")
+          .row(numero="5" titulo="Mejor comprensión del público")
             p.text-small La retroalimentación directa permite conocer opiniones, preferencias y necesidades de la audiencia.
 
     Separador

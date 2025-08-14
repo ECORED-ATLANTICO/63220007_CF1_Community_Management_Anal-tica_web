@@ -99,8 +99,6 @@
           img(data-aos="fade-down")(src='@/assets/curso/temas/tema4/10.png', alt='imagen decorativa')
     
 
-    //- .cajon.color-secundario.p-4(data-aos="fade-left")
-    //-   p.mb-0 Esta clasificación permite aplicar tratamientos poscosecha específicos y elegir las mejores opciones para conservación y transformación.
 
 </template>
 
