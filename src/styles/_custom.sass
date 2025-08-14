@@ -222,3 +222,37 @@ figcaption, caption
       content: url('../assets/curso/temas/check-icon.svg')
       position: absolute
       left: -20px
+
+.custom-timeline
+  .linea-tiempo-d__item__content__title
+    background-color: #E5D9FF
+
+  .linea-tiempo-d__item__content__slot
+    background-color: #E8E8E8
+
+  .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+    background-color: $color-secundario-s5
+
+  .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: $color-secundario
+      color: white
+
+  .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content__title
+      background-color: #E8E8E8
+
+.acordion-conservas
+  background-color: #E5D9FF
+  color: #12263F
+  &--borde
+    background-color: lighten($color-acento-contenido, 50%)
+    color: #12263F
+    border: solid 4px $color-acento-contenido
+
+  .acordion__accion__btn--a
+    background-color: #A854F3
+    color: #FFFFFF
+
+  &.acordion__activo
+    background-color: #E8E8E8
